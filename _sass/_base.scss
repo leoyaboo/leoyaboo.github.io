@@ -79,15 +79,17 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+h2, h3, h4 {
+    font-weight: 600;
 }
 
+h1,h5,h6 {
+    font-weight: 300;
+}
 
 /**
  * H2 Underline 
  */
-
 h2 {
     border-bottom: 1px solid #AAA;
 }
@@ -118,9 +120,9 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: -1px;
-    font-style: italic;
+    //font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -211,3 +213,4 @@ pre {
         }
     }
 }
+
