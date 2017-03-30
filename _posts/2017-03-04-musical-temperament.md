@@ -1,5 +1,5 @@
 ---
-title: "律学"
+title: "律制"
 date: 2017-03-04
 layout: post
 mathjax: true
